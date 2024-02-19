@@ -1,0 +1,32 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I../",
+      "-I../vendor/glad/include/",
+      "-DGLFW_INCLUDE_NONE",
+      "-o",
+      "../bin/test",
+      "main.c"
+    ],
+	"directory": "/home/aolx/projects/glfw_window/src",
+	"file": "/home/aolx/projects/glfw_window/src/main.c",
+	"output": "/home/aolx/projects/glfw_window/bin/test"
+  },
+  {
+    "arguments": [
+      "/usr/bin/gcc",
+      "-c",
+      "-I../",
+      "-I../vendor/glad/include/",
+      "-DGLFW_INCLUDE_NONE",
+      "-o",
+      "../bin/test",
+      "../vendor/glad/src/glad.c"
+    ],
+    "directory": "/home/aolx/projects/glfw_window/src",
+    "file": "/home/aolx/projects/glfw_window/vendor/glad/src/glad.c",
+    "output": "/home/aolx/projects/glfw_window/bin/src"
+  }
+]
